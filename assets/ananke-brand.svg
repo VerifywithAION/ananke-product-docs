@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-label="ANANKE — Intelligence should be spent only when necessary. Brand illustration showing governed intelligence.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071713"/><stop offset="0.6" stop-color="#0C1C18"/><stop offset="1" stop-color="#10251F"/></linearGradient>
+    <linearGradient id="emerald" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#56E8B0"/><stop offset="1" stop-color="#AFEDD1"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F0D69A"/><stop offset="1" stop-color="#B18C50"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#1AD993" stop-opacity="0.22"/><stop offset="1" stop-color="#1AD993" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M 36 0 L 0 0 0 36" fill="none" stroke="#B3E9D4" stroke-opacity=".07" stroke-width="1"/></pattern>
+  </defs>
+  <rect width="1280" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="360" rx="24" fill="url(#grid)"/>
+  <rect x="735" y="-130" width="620" height="620" fill="url(#halo)"/>
+  <path d="M 44 36 H 1238" stroke="#9AD7B9" stroke-opacity=".13"/>
+  <path d="M 44 324 H 1238" stroke="#9AD7B9" stroke-opacity=".13"/>
+  <rect x="54" y="60" width="114" height="29" rx="14.5" fill="#1C3F32" stroke="#447B61" stroke-opacity=".7"/>
+  <circle cx="71" cy="75" r="4.5" fill="#6BE7B1"/>
+  <text x="86" y="80" fill="#B7EAD1" font-size="12" letter-spacing="1.5" font-family="Arial, Helvetica, sans-serif">ANANKE / 01</text>
+  <text x="53" y="180" fill="#F2F6F3" font-size="82" font-weight="700" letter-spacing="8" font-family="Arial, Helvetica, sans-serif">ANANKE</text>
+  <path d="M 54 200 H 416" stroke="url(#emerald)" stroke-width="3"/>
+  <text x="54" y="241" fill="#D1E7DD" font-size="22" letter-spacing=".4" font-family="Arial, Helvetica, sans-serif">Intelligence should be spent</text>
+  <text x="54" y="272" fill="#D1E7DD" font-size="22" letter-spacing=".4" font-family="Arial, Helvetica, sans-serif">only when it is <tspan fill="#6DE3AC">necessary.</tspan></text>
+  <text x="54" y="314" fill="#B99C66" font-size="12" letter-spacing="2.6" font-family="Arial, Helvetica, sans-serif">INFERENCE NECESSITY INFRASTRUCTURE</text>
+  <g transform="translate(960 176)">
+    <circle r="141" fill="none" stroke="#69CFA6" stroke-opacity=".18" stroke-width="1"/>
+    <circle r="107" fill="none" stroke="#92D4B8" stroke-opacity=".24" stroke-width="1" stroke-dasharray="4 7"/>
+    <circle r="67" fill="none" stroke="#E3CC8F" stroke-opacity=".28" stroke-width="1"/>
+    <path d="M -141 0 H 141 M 0 -141 V 141 M -99 -99 L 99 99 M 99 -99 L -99 99" stroke="#73CDA2" stroke-opacity=".1"/>
+    <path d="M -120 -73 L -61 -37 L 0 0 L 83 -65 L 125 -20 M -103 96 L -37 56 L 0 0 L 90 99" fill="none" stroke="#6FDCAD" stroke-opacity=".67" stroke-width="2.2"/>
+    <circle cx="-120" cy="-73" r="6" fill="#74E5B5"/>
+    <circle cx="-61" cy="-37" r="6" fill="#74E5B5"/>
+    <circle cx="83" cy="-65" r="6" fill="#EAD08F"/>
+    <circle cx="125" cy="-20" r="6" fill="#74E5B5"/>
+    <circle cx="-103" cy="96" r="6" fill="#EAD08F"/>
+    <circle cx="-37" cy="56" r="6" fill="#74E5B5"/>
+    <circle cx="90" cy="99" r="6" fill="#74E5B5"/>
+    <circle r="36" fill="#133B2D" stroke="url(#emerald)" stroke-width="2.6"/>
+    <path d="M -13 -3 L -3 8 L 16 -13" fill="none" stroke="#92F1C7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-79" y="160" fill="#EAD298" font-size="12" letter-spacing="1.7" font-family="Arial, Helvetica, sans-serif">NECESSITY  /  VALIDITY</text>
+  </g>
+  <rect x=".5" y=".5" width="1279" height="359" rx="23.5" fill="none" stroke="#679982" stroke-opacity=".32"/>
+</svg>
