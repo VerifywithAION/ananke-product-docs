@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/ananke-brand.svg" alt="ANANKE — Inference Necessity Infrastructure. Emerald and gold brand illustration." width="1280" /></p>
+
 <div align="center">
 
 # ANANKE
