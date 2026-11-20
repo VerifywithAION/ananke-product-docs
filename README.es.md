@@ -1,61 +1,60 @@
 # ANANKE — Infraestructura para conservar inteligencia
 
-**La pregunta antes de cada inferencia:** ¿de verdad necesitamos volver a producir inteligencia?
+**Antes de ejecutar un modelo: ¿realmente necesitamos volver a generar inteligencia?**
 
-[English](README.md) · [Cómo funciona](docs/how-it-works.md) · [Investigación](research/README.md) · [Estado actual](STATUS.md)
+**[Atlas del producto](atlas/README.md)** · **[Resumen para inversionistas](investors/resumen-ejecutivo-es.md)** · **[Pitch de 12 diapositivas](investors/pitch-deck.md)** · **[Resultados](research/README.md)** · **[Estado](STATUS.md)** · **[English](README.md)**
 
-ANANKE es un proyecto de **infraestructura para gobernar la necesidad y el gasto de inteligencia artificial** (*Inference Necessity / Intelligence Expenditure Infrastructure*). Su objetivo no es sustituir los modelos que ya utiliza una aplicación, sino decidir cuándo se justifica ejecutar uno nuevamente.
+ANANKE investiga y desarrolla **Inference Necessity Infrastructure**, una capa de gobernanza que busca determinar cuándo hace falta generar inteligencia nueva y cuándo puede utilizarse trabajo anterior **válido y autorizado**.
 
-## El problema
+Su concepto central, **Computational Capital**, representa cómputo previamente validado que puede conservarse y reutilizarse dentro de límites de autoridad, evidencia y vigencia. No es simplemente guardar respuestas parecidas.
 
-Un agente puede volver a analizar un archivo que no cambió, un sistema de soporte repetir una clasificación ya validada y un proceso empresarial pagar repetidamente por decisiones equivalentes. Un caché tradicional puede recuperar respuestas parecidas, pero la similitud **no garantiza** que sigan siendo correctas, autorizadas o vigentes.
+## La oportunidad
 
-ANANKE propone combinar en **un único motor** evaluación de necesidad, resolución determinista, reutilización validada, **Computational Capital**, invalidación selectiva, selección de inteligencia mínima admisible, gobernanza de proveedores y contabilidad con recibos.
+Hoy se invierte muchísimo esfuerzo en escoger modelos, reducir tokens, hacer caché y enrutar peticiones. ANANKE investiga una pregunta anterior: **¿es necesaria esta nueva inferencia?**
 
-```mermaid
-flowchart TD
-    A[Solicitud del usuario o agente] --> B[Autorización y evaluación de necesidad]
-    B --> C{¿Necesita inferencia nueva?}
-    C -->|No| D[Prueba, determinismo o Capital válido]
-    C -->|Sí| E[Inteligencia mínima admisible]
-    E --> F[Proveedor autorizado o rechazo]
-    D --> G[Validación y recibo]
-    F --> G
-    G --> H[Respuesta en el workflow original]
-```
+Cuando una tarea realmente cambió o requiere conocimiento nuevo, el modelo debe ejecutarse de nuevo. Cuando el trabajo sigue siendo aplicable y puede demostrarse, repetirlo podría ser innecesario. El objetivo es ahorrar recomputación **sin perder calidad, seguridad ni capacidad**.
 
-Este diagrama describe la **arquitectura del producto prevista**, no un despliegue integral ya certificado.
+## Qué pretende ofrecer
 
-## Qué recibiría el usuario
+- Decidir cuándo una tarea necesita inferencia fresca.
+- Resolver trabajo elegible sin modelos cuando existe una alternativa segura.
+- Reutilizar resultados validados bajo límites explícitos.
+- Preservar resultados no afectados e invalidar los que dependan de fuentes modificadas.
+- Respetar las opciones de proveedores y controles autorizados.
+- Reportar decisiones, llamadas y tokens reales separadamente de estimaciones.
 
-- **Menos recomputación innecesaria**, cuando una decisión anterior puede reutilizarse legítimamente.
-- **Continuidad del trabajo**: conservar su aplicación, agente y proveedores compatibles.
-- **Actualización selectiva**: si cambia una fuente, recalcular solamente los resultados afectados.
-- **Decisiones justificadas**: saber por qué se evitó una llamada, se seleccionó un modelo o se denegó una operación.
-- **Métricas transparentes**: distinguir llamadas y tokens realmente medidos de ahorros estimados o contrafactuales.
+**Son capacidades objetivo del producto**, no afirmaciones de que todas funcionen ya en una beta comercial.
 
-No se garantiza reducción para tareas nuevas, abiertas, creativas o de riesgo elevado. El costo de la propia gobernanza debe contabilizarse.
+## Investigación documentada
 
-## La evidencia que ya existe
-
-| Estudio | Resultado registrado | Límite |
+| Estudio | Resultado | Límite |
 | --- | --- | --- |
-| **EXP005F** | 1,000 → 5 llamadas a Ollama; 140,060 → 724 tokens (193.45×) | Workload específico de laboratorio |
-| **EXP025A_R5** | 500 → 20 llamadas; 70,650 → 2,836 tokens (24.91×) | Condiciones controladas |
-| **ANANKE × JEV A3** | 600 de 1,000 solicitudes se resolvieron antes de llamar a JEV | No demuestra ahorros frontier |
-| **ANANKE × JEV B** | 413/420 decisiones acotadas correctas | No demuestra razonamiento general |
-| **Four-Arm R1** | 101 frente a 240 llamadas frontier, preservando 240/240 respuestas correctas | **FAIL científico global** por metas económicas preinscritas |
+| EXP005F | 1,000 → 5 llamadas a Ollama; 140,060 → 724 tokens | Experimento local y acotado |
+| EXP025A_R5 | 500 → 20 llamadas; 70,650 → 2,836 tokens | Experimento local y acotado |
+| ANANKE × JEV A3 | 600/1,000 solicitudes resueltas antes del modelo JEV | Investigación con proveedor real, no SaaS comercial |
+| JEV B R1 | 413/420 decisiones acotadas correctas | No reemplaza razonamiento general |
+| Four-Arm R1 | 101 vs 240 llamadas frontier | **FAIL global en el criterio económico preinscrito** |
 
-Publicamos también los resultados que **no** cumplieron sus condiciones. Los números provienen de registros internos experimentales; aquí se presentan como resúmenes y no como datos públicos completos para reproducción independiente. [Ver investigación detallada](research/README.md).
+No se deben sumar estos resultados entre experimentos ni presentarlos como ahorros universales o ingresos reales.
 
-## Estado del producto
+## Qué está construido y qué falta
 
-La política local M06 v0.1 superó **47/47 regresiones offline**, pero la prueba nativa unificada M01–M08, con PostgreSQL, autoridad de fuentes, capital, recibos y proveedor real, **todavía no ha recibido un PASS integral**. La primera sesión de aceptación de noviembre de 2026 se detuvo por un control de identidad de PostgreSQL, antes de completar el motor. La beta privada y producción no están autorizadas. [Estado exacto](STATUS.md).
+Ya existen avances de ingeniería en mecanismos de gobernanza, validación, reutilización, interfaces y control del producto; también experimentos con modelos reales. Sin embargo, **la aceptación integral de la versión actual, el uso legítimo de Capital con un cliente de extremo a extremo y el ROI real por cuenta siguen sin comprobarse**.
 
-## Aportación a la comunidad
+**Beta privada externa: NO-GO a fecha 20 de noviembre de 2026.** [Ver estado actualizado](STATUS.md).
 
-ANANKE investiga una pregunta distinta a «¿qué modelo es más barato?»: **«¿por qué esta solicitud necesitaría una nueva llamada de modelo?»**. Es una invitación a medir novedad, vigencia, seguridad, reuso válido y costo total de computación en workflows reales.
+## Documentación completa
 
-Este repositorio es exclusivamente **documentación pública**. No contiene código fuente del motor, credenciales, datos de clientes, configuraciones privadas ni mecanismos de autorización inéditos.
+- [Introducción y Product Atlas](atlas/README.md)
+- [Qué hace ANANKE](atlas/PRODUCT_OVERVIEW.md)
+- [Lo que se ha construido y comprobado](atlas/BUILT_AND_PROVEN.md)
+- [Casos de uso](atlas/USE_CASES.md)
+- [Matriz de capacidades](atlas/CAPABILITY_STATUS.md)
+- [Material para inversionistas](investors/README.md)
+- [Tesis comercial y económica](investors/commercial-model.md)
+- [Competencia](investors/competitive-landscape.md)
+- [Diligencia debida](investors/diligence.md)
+- [Roadmap](ROADMAP.md)
+- [Investigación detallada](research/README.md)
 
-**Explorar:** [Visión](docs/vision.md) · [Capital computacional](docs/computational-capital.md) · [Seguridad](docs/governance-and-safety.md) · [Casos de uso](product/customer-experience.md) · [Preguntas frecuentes](product/faq.md) · [Roadmap](ROADMAP.md).
+**Protección de propiedad intelectual:** el repositorio publica solo documentación explicativa. No contiene código ni sistemas propietarios del motor ANANKE, secretos o detalles internos inéditos. Documentación públicamente visible **no** significa motor de código abierto. [Aviso de derechos](NOTICE.md).
