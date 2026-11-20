@@ -1,37 +1,54 @@
-# Current product status
+# ANANKE | Product readiness and evidence
 
-**As of 2026-11-16.** This page distinguishes **historical research results**, **offline candidate validation**, and **complete live product acceptance**. The latest owner-provided native-session evidence was evaluated as an interrupted acceptance attempt, **not** a completed M01–M08 run.
+**Status date:** 20 November 2026. This document is updated against the latest available owner-supplied project record. It describes public-facing readiness only and does not disclose private implementation or security internals.
 
-## At a glance
+> **Current verdict: RESEARCH AND PRODUCT ENGINEERING IN PROGRESS. Full customer E2E is NOT PROVEN. External beta and production remain NO-GO.**
 
-| Workstream | Reported evidence | Publication-safe status |
+## Evidence summary
+
+| Workstream | Verified or recorded status | Safe public conclusion |
 | --- | --- | --- |
-| Token Reduction Lab | Multiple local model-backed controlled experiments | **Measured research results** |
-| ANANKE × JEV A3 and B R1 | Real external-provider bounded experiments | **Scoped experimental PASS** |
-| Four-Arm R1 | Four matched provider arms, 240 cases each | **Economic preregistration FAIL**; positive scoped utility evidence |
-| HCR / Capital mechanisms | Prior deterministic and security-focused qualification | **Component evidence; not a unified live product PASS** |
-| M06 local minimum-intelligence policy v0.1 | 47/47 focused + affected offline regressions PASS | **Offline candidate PASS**; one configured local Ollama tier |
-| Local historical website/control-plane flow | Earlier customer-journey-focused integration PASS | **Prior local milestone**, not current full engine proof |
-| Unified native M01–M08 (current candidate) | One isolated native attempt reached PostgreSQL, then stopped at a strict process-identity gate; the predicate was subsequently corrected and passed offline regression | **NOT PROVEN; native rerun pending** |
-| Current Website/BFF → full native engine | No complete acceptance with M01–M08 evidence | **NOT PROVEN** |
-| Private beta / production | Integrated and security/release gates pending | **NO-GO / not available** |
+| Token Reduction Lab | EXP005F / EXP025A local Ollama model-backed studies | Real measured reductions in **specific laboratory workloads** |
+| ANANKE × JEV A3 / B R1 | Real external-provider bounded experiments | Scoped research results, not a commercial integration |
+| Four-Arm R1 | Correctness and fewer frontier calls in a frozen comparison; overall economic criterion missed | **Overall preregistered economic FAIL** |
+| Necessity, validation and Computational Capital | Multiple historical component, offline and isolated qualification milestones | Mechanisms studied and partially qualified; **full current live customer Capital lifecycle not proven** |
+| M06 minimum-intelligence local v0.1 | 47/47 focused/affected offline checks | Local one-tier offline candidate PASS |
+| Customer website, account and dashboards | Existing locally developed product surfaces and historical local journey milestones | Built surfaces; current same-engine end-to-end acceptance still pending |
+| Current native acceptance | A November 16 interruption and subsequent November 19 failed acceptance attempt | Full native unified M01–M08 acceptance **not achieved** |
+| 20 November customer integration | Existing customer authority and proof components examined; actual authorized proof delivery and customer mapping not executed | **Current customer proof, mapping, BFF → Cloud → authoritative receipt → dashboard NOT PROVEN** |
+| Production BYOK and real customer economics | No complete integrated measured evidence for legitimate customer Capital/real tokens and matched baseline | **Not proven; no general availability or validated savings** |
 
-## What the interrupted native session means
+## Why 20 November does not change beta readiness
 
-On 2026-11-16, the isolated acceptance attempt created an ephemeral PostgreSQL dataset, started PostgreSQL 17.4, and observed a healthy loopback listener. It then **stopped before completing Genesis, Enterprise, live Capital/Model workflows or M01–M08** because a strict PostgreSQL process/data-directory ownership predicate did not accept the observed identity.
+The November 20 project record reports more precise understanding of the local customer integration pathway and several source-level supported components, but **no new accepted native customer transaction**. The required independently authorized customer identity proof was not actually issued and consumed; the corresponding customer mapping, live application-to-governance request path, durable receipt and scoped dashboard readback have not been certified.
 
-The recorded database process then shut down; the full cleanup acceptance was not certified. Follow-up engineering identified a Windows path-format comparison defect in the process/data-directory verifier and corrected it without removing its ownership checks. **Seven of seven focused owner checks passed offline; additional Capital post-cleanup regressions also passed.** The corrected predicate has not yet been retested during a new native session. Thus the interrupted attempt remains **FAIL-CLOSED** and full M01–M08 acceptance remains **NOT PROVEN**.
+The source-level availability of a component and a historical local PASS do not establish that the **current** customer integration path has passed. Real model-backed Computational Capital, live provider token measurement, and net customer economics remain separate unmet proof obligations.
 
-No raw logs, ports, process identifiers, filenames, secrets, forensic directory structures or security-check implementation details are disclosed here.
+Private code paths, credentials, security predicates and operational topology are deliberately omitted from this public readiness summary.
 
-## Definition of a product-level PASS
+## Definition of complete product acceptance
 
-A future acceptance record must show one authenticated local execution path that proves M01–M08 together, legitimate independent source authority, validated Capital issuance and reuse, selective invalidation, prior-valid-result preservation, real provider admissions and denials, actual model-call and token telemetry, authoritative receipts, independent database readback, credential revocation and task-owned cleanup.
+The next product-level proof must demonstrate:
 
-Only **after** that, the existing customer Website/BFF must be tested against the same engine. Neither step authorizes an external production deployment on its own.
+1. A legitimate, authenticated customer/project context and durable authoritative request/receipt flow.
+2. A genuinely model-necessary task that executes under authorization and records **actual** provider usage.
+3. Validation and eligibility of a result as Computational Capital, plus a second distinct request that correctly reuses it.
+4. Source-change invalidation of affected computation and preservation of unaffected computation.
+5. Accurate tokens, calls, modeled baseline, governance overhead, real cost and latency labels—with no fabricated fixture dashboard metrics.
+6. Negative tests for denied operations, identity/scope isolation, expiry/revocation and cleanup.
+7. A current, accepted integration of the existing customer Website/BFF with the same governed engine.
+8. Later independent operational, security and hosting acceptance before any external beta.
 
-## Status language
+No claim of current product success follows from research call reductions alone.
 
-There is **no public general availability claim** and no downloadable engine in this repo. Historical lab reductions and provider studies should not be presented as the current integrated product's production savings.
+## Public claim boundaries
 
-This status page should be updated only against new evidence, not aspirations.
+ANANKE does **not** currently assert:
+
+- A production-ready hosted service, public installer, complete engine SDK or live beta.
+- Any universal 90–99% customer cost saving or guaranteed near-zero tokens.
+- General scientific reproducibility from this docs-only repository.
+- Paid customer traction, ARR, audited market share, verified net customer ROI or enterprise SLAs.
+- Patent grant, exclusivity or freedom-to-operate clearance.
+
+**Read next:** [Product Atlas](atlas/README.md) · [Built and proven](atlas/BUILT_AND_PROVEN.md) · [Evidence](investors/evidence.md) · [Roadmap](ROADMAP.md) · [Claims](CLAIMS.md).
