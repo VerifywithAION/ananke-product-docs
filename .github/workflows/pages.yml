@@ -1,6 +1,6 @@
 # ANANKE public presentation site — STATIC DOCUMENTATION ONLY.
-# It does not build, test, import or deploy the private ANANKE engine.
-# GitHub repository admin must first select Settings > Pages > Source: GitHub Actions.
+# This workflow never imports, builds or deploys the private ANANKE engine.
+# GitHub Pages source must be configured as GitHub Actions.
 name: Deploy ANANKE public site
 
 on:
@@ -23,11 +23,9 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  publish:
+  build:
+    name: Assemble and upload public static site
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout public documentation
         uses: actions/checkout@v4
@@ -54,6 +52,14 @@ jobs:
         with:
           path: ./_site
 
+  deploy:
+    name: Deploy previously uploaded public site
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Deploy GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
