@@ -14,6 +14,19 @@
 - **Owner and independent reviewer:** <actual approval; never invent>
 - **Linked PR / review:** <GitHub URL if accepted>
 
+## Machine-readable accepted-report fields (required only when truly accepted)
+
+Copy the actual values below into the final dated report **after** reviewing primary evidence. The structural CI rejects missing/placeholder fields when a milestone's `state.json` status becomes `ACCEPTED_IN_SCOPE`. This block is NOT an approval, signature, or scientific check.
+
+```text
+MILESTONE_ID=NOT_APPROVED
+ORIGINAL_VERDICT=NOT_RUN
+PRIMARY_RUN_ID=NOT_RUN
+PRIMARY_EVIDENCE_SHA256=NOT_VERIFIED
+OWNER_REVIEW=NOT_APPROVED
+ACCEPTED_IN_SCOPE=NO
+```
+
 ## 1. Original frozen acceptance requirement
 
 Describe the obligation, workload/target population, permitted models and budgets, control groups, comparison baseline, success/failure thresholds, quality/safety bounds, and exact preregistered contract version. If registered only after execution, mark `POST_HOC` and do not label a prospective trial.
