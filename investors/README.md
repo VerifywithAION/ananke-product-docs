@@ -1,44 +1,67 @@
-# ANANKE | Investor Relations & Strategic Overview
+# ANANKE | Investor Reading Room
 
-**The infrastructure opportunity behind intelligence conservation**
+> **The next economic question in AI:** not only *which model should run?*—but *does this obligation require a new model call at all?*
 
-> **Every AI platform asks which model should execute. ANANKE asks whether new intelligence needs to be executed at all.**
+**ANANKE is pursuing Inference Necessity Infrastructure**: an accountable layer designed to preserve validated computation, recognize material change, and admit fresh intelligence only when appropriate. This is a research-backed **product and investment thesis**. The full current customer-facing engine has not yet completed integrated acceptance.
 
-ANANKE is building toward **Inference Necessity Infrastructure**: a governed layer that aims to stop unjustified recomputation, retain independently validated work as **Computational Capital**, preserve fresh inference for real novelty and change, and give organizations interpretable usage and decision evidence.
+<p align="center">
+  <img src="../assets/ananke-social-preview.svg" alt="ANANKE editorial brand: intelligence should be spent only when necessary." width="1000"/>
+</p>
 
-## The opportunity in five statements
+## Your five-minute path
 
-1. **Problem:** growing AI adoption can multiply repeated and unnecessary inference across workflows and agents.
-2. **Product thesis:** decide whether fresh intelligence is justified before optimizing its model, provider, tokens or price.
-3. **Defensible distinction to test:** authorized, currently applicable reuse with source-change safety—not similarity-only caching or generic routing.
-4. **Evidence today:** measured local Ollama studies, external-provider comparative experiments and substantial scoped engineering milestones. The four-arm economic preregistration also recorded an **overall FAIL**, which is disclosed.
-5. **Stage:** research and product integration. Unified live customer acceptance, independently accepted model-backed Capital, measured customer ROI and public beta are **not yet proven**.
+| Start | Document | Essential question |
+| :--- | :--- | :--- |
+| **01 · Overview** | [Investor one-pager](one-pager.md) | What problem and category does ANANKE address? |
+| **02 · Business case** | [Investment thesis](investment-thesis.md) | Why could this matter to enterprise AI economics? |
+| **03 · Evidence** | [Measured research and constraints](evidence.md) | Which experiments passed, and what failed? |
+| **04 · Reality check** | [Current product status](../STATUS.md) | What is built; what still needs acceptance? |
+| **05 · The next gates** | [Roadmap P0–P4](../ROADMAP.md) | What would qualify this for real customer use? |
 
-## Investor reading room
+## Investment narrative, without invented traction
 
-| Document | Why it matters |
-| --- | --- |
-| [Investment thesis](investment-thesis.md) | Opportunity, product, wedge, barriers and value creation hypothesis |
-| [Pitch deck narrative](pitch-deck.md) | A shareable 12-slide presentation script |
-| [Product Atlas](../atlas/README.md) | Accessible product documentation for all audiences |
-| [What is actually built](../atlas/BUILT_AND_PROVEN.md) | Historical milestones without conflating components and shipped product |
-| [Evidence](evidence.md) | Experimental numbers, failures, scope and next validation |
-| [Commercial model](commercial-model.md) | Economics, revenue hypotheses and rigorous pilot gates |
-| [Competitive landscape](competitive-landscape.md) | Existing categories and differentiated testable claims |
-| [Risks and diligence](diligence.md) | Hard questions an institutional investor should ask |
-| [Milestones and roadmap](../ROADMAP.md) | Current critical path and conditional expansion |
-| [Current status](../STATUS.md) | Latest dated product readiness statement |
+**The pain:** recurring AI workflows may repeat costly analysis of obligations already satisfied. Traditional routing, prompt caching and retrieval help, but reuse cannot be deemed safe on textual similarity alone.
 
-## Why now? The hypothesis
+**The product direction:** verify whether fresh inference is justified under current evidence, scope and authority. Preserve eligible prior work as **Computational Capital**; invalidate changed work; permit new reasoning when necessary. Publish receipts distinguishing actual execution from estimated savings.
 
-As organizations add more agents, repeated workflows, evolving source corpora and multiple inference providers, the operational question can shift from only **execution efficiency** to **execution necessity**. If the same validated decision remains applicable, making it again may consume resources without creating proportional new value.
+**The first market wedge to test:** repetitive, source-versioned obligations such as policy-backed support classification, document validation and developer-agent checks. These are prospective pilots, not announced customers.
 
-This is a prospective market thesis. ANANKE does **not** publish audited market size, current annual recurring revenue, enterprise customer counts, live production savings or a validated moat in this repository.
+**What has been measured:** local model-backed token and call experiments and bounded ANANKE × JEV comparisons. See [research evidence](evidence.md). Importantly, a separate four-arm evaluation **failed** its preregistered overall economic threshold.
 
-## Engagement and rights
+**What remains open:** integrated customer acceptance, genuine model-backed Capital and measured net savings on representative real customer tasks, enterprise security/operations and commercial willingness to pay.
 
-This public GitHub repository is for evaluation and discussion, **not** source-code distribution, a production API or a current purchase/financing offer. We do not expose proprietary engine code, internal systems, customer data, security internals or unreleased algorithms. See [NOTICE](../NOTICE.md) and [SECURITY](../SECURITY.md).
+### Evidence maturity at a glance
 
-The organization associated with the repository is [VerifywithAION](https://github.com/VerifywithAION). No fundraising amount, valuation, financing terms or dedicated investor contact is represented here.
+| **Research** | **Engineering** | **Commercial release** |
+| :--- | :--- | :--- |
+| Scoped measured model/provider studies | Local, offline and candidate milestones | **Not generally available** |
+| Historical gains and transparent failed economic criterion | Complete current customer E2E **not proven** | No audited ARR, paying-customer or ROI claims |
 
-**Publication snapshot:** 20 November 2026.
+*Evidence cutoff: 20 November 2026; do not treat historical measurements as current product economics.*
+
+## Investor dossier
+
+| Topic | Read |
+| :--- | :--- |
+| Shareable presentation | [12-slide pitch narrative](pitch-deck.md) |
+| Short spoken introduction | [30-second / 90-second / 3-minute scripts](pitch-scripts.md) |
+| Economic design and distribution | [Commercial model](commercial-model.md) |
+| Competing and adjacent approaches | [Competitive landscape](competitive-landscape.md) |
+| Critical questions and risks | [Due diligence](diligence.md) |
+| Product functionality | [Product Atlas](../atlas/README.md) |
+| Existing engineering and experiments | [What is built and verified](../atlas/BUILT_AND_PROVEN.md) |
+| Spanish version | [Resumen ejecutivo](resumen-ejecutivo-es.md) |
+| Scientific methodology | [Research methods](../research/methodology.md) |
+| Claim constitution | [Responsible claims](../CLAIMS.md) |
+
+## What would make the thesis more credible?
+
+An accepted current product run showing **legitimate customer scope**, a genuinely necessary model execution, safe eligible Capital reuse across separate requests, correct change invalidation, authoritative receipts and actual provider token accounting. Then run preregistered baselines measuring quality, latency, false reuse and **net** economics including governance overhead.
+
+The investor's strongest question should be: **Does this reduce the total cost of correctly completed work on a representative real workload?** Avoided calls alone are not enough.
+
+---
+
+**Publication boundary:** This GitHub repository contains public product and research documentation only—not ANANKE private engine source, operational security internals, unreleased API contracts, a running product or a source-code license. No fundraising round, valuation, market size, legal patent right, production uptime commitment or authenticated customer traction is announced.
+
+[Back to ANANKE](../README.md) · [Atlas](../atlas/README.md) · [Research](../research/README.md) · [Rights and disclosure](../NOTICE.md)
