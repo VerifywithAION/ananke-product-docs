@@ -1,6 +1,12 @@
 # ANANKE | Public product roadmap
 
-**Last reviewed: 20 November 2026.** This roadmap separates completed historical research milestones, the current critical path, conditional commercial delivery and longer-horizon concepts. **No dates, release windows or availability are promised.** A checked item denotes only the stated evidence class—not production certification.
+**Original roadmap reviewed: 20 November 2026; 21 November update links to the versioned delivery ledger.** This roadmap separates completed historical research milestones, the current critical path, conditional commercial delivery and longer-horizon concepts. **No dates, release windows or availability are promised.** A checked item denotes only the stated evidence class—not production certification.
+
+## Delivery and scientific milestone tracking
+
+**Current canonical delivery ledger:** [MILESTONES.md](MILESTONES.md). It tracks E0–E6 from existing motor to accepted customer/Hostinger domain beta, R1–R6 scientific advances, original acceptance thresholds, dated sealed reports, and explicit FAIL/non-claim handling.
+
+**2026-11-21 correction:** One later accepted 20 November customer transaction passed the deterministic **LAB_ONLY** Website/BFF → Cloud/HCR → PostgreSQL receipt/readback/cleanup path. The earlier P0 wording below predates that accepted run and is not evidence that the LAB_ONLY result is missing. Real Supabase authentication, genuinely model-backed CC and production economics remain unproven.
 
 ## North-star
 
@@ -18,7 +24,7 @@
 - [ ] Verify cross-project denial, rights isolation, credential revocation, recovery and controlled teardown.
 - [ ] Obtain one current, coherent integrated acceptance record rather than reusing historical local PASS labels.
 
-**As of 20 November:** P0 remains **open**, customer E2E NOT PROVEN; external beta **NO-GO**.
+**Current interpretation (21 November):** The deterministic LAB_ONLY customer path is closed/PASS, but **real authenticated customer E2E remains open**, and external beta remains **NO-GO**. Refer to the milestone ledger.
 
 ## P1 — Model-backed Computational Capital and value truth
 
