@@ -1,0 +1,73 @@
+{
+  "schema_version": "ananke-public-milestone-state-v1",
+  "as_of": "2026-11-21",
+  "visibility": "PUBLIC_SUMMARY_ONLY",
+  "note": "Public-status metadata only. No milestone newly accepted. Historical bounded PASS records remain separately scoped.",
+  "milestones": [
+    {
+      "id": "E0",
+      "status": "OPEN",
+      "report": null
+    },
+    {
+      "id": "E1",
+      "status": "BLOCKED",
+      "report": null
+    },
+    {
+      "id": "E2",
+      "status": "BLOCKED",
+      "report": null
+    },
+    {
+      "id": "E3",
+      "status": "BLOCKED",
+      "report": null
+    },
+    {
+      "id": "E4",
+      "status": "BLOCKED",
+      "report": null
+    },
+    {
+      "id": "E5",
+      "status": "OPEN",
+      "report": null
+    },
+    {
+      "id": "E6",
+      "status": "BLOCKED",
+      "report": null
+    },
+    {
+      "id": "R1",
+      "status": "BLOCKED",
+      "report": null
+    },
+    {
+      "id": "R2",
+      "status": "OPEN",
+      "report": null
+    },
+    {
+      "id": "R3",
+      "status": "OPEN",
+      "report": null
+    },
+    {
+      "id": "R4",
+      "status": "OPEN",
+      "report": null
+    },
+    {
+      "id": "R5",
+      "status": "OPEN",
+      "report": null
+    },
+    {
+      "id": "R6",
+      "status": "OPEN",
+      "report": null
+    }
+  ]
+}
