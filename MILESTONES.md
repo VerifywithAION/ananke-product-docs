@@ -49,6 +49,10 @@ See [dated baseline record](milestones/reports/2026-11-21-baseline.md), [STATUS]
 
 **Stretch research target:** a mature-workflow fresh-inference fraction of 10^-5 and 10^-6 where safe, per ANANKE's North Star. These are *not achieved* and must **not** block a narrow, honest first beta. A research result counts as a product capability only after its validated output traverses the current existing engine and evidence/authority path.
 
+## Machine-readable status and structural CI
+
+The authoritative **public-facing status index** for these milestones is [milestones/state.json](milestones/state.json). Its status must be advanced in the same reviewed PR as a dated per-milestone acceptance report. A small GitHub Actions job runs [scripts/verify_public_milestones.py](scripts/verify_public_milestones.py) to reject an `ACCEPTED_IN_SCOPE` status unless the indexed dated report exists and contains the expected milestone ID, real run ID, evidence SHA-256, verdict and owner review. This structural control does **not** validate the authenticity or scientific correctness of that evidence. The private source/evidence owner must do so; branch protection and required-review settings are separate controls and are **not claimed enabled**.
+
 ## How milestones become sealed
 
 See [Milestone protocol](milestones/PROTOCOL.md) and [report template](milestones/REPORT_TEMPLATE.md).
