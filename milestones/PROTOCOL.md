@@ -23,6 +23,20 @@ Complete the pre-existing ANANKE canonical M01–M08 engine, legitimate model-ba
 
 A **sealed report** is an append-only `milestones/reports/YYYY-MM-DD-<gate>-<short-name>.md` containing the [template](REPORT_TEMPLATE.md), linked to Git commit/PR and private evidence digest (not private evidence contents). A Git tag or commit SHA gives traceability; do not call it a cryptographic signature unless it was actually signed/verified. Branch/release protection and owner approval must be separately configured and demonstrated.
 
+## Machine-readable status and checks
+
+The only public structured status source is [state.json](state.json), with one entry for each E0–E6 and R1–R6 gate. Every status promotion to `ACCEPTED_IN_SCOPE` must include a new dated report containing the exact text fields listed below, a real run ID, a 64-character evidence SHA-256, the frozen verdict and a documented reviewer. The [GitHub Actions structural check](../scripts/verify_public_milestones.py) verifies these required fields and presence of the report, not their truth. Reports and status still require owner-reviewed primary evidence. The workflow has not been demonstrated as a required branch-protection check until verified in GitHub settings.
+
+Required accepted-report fields:
+```text
+MILESTONE_ID=E3
+ORIGINAL_VERDICT=PASS
+PRIMARY_RUN_ID=<actual id>
+PRIMARY_EVIDENCE_SHA256=<64 hexadecimal digits>
+OWNER_REVIEW=<actual reviewer, date and approval reference>
+ACCEPTED_IN_SCOPE=YES
+```
+
 ## GitHub update protocol
 
 - One GitHub delivery epic tracks E0–E6 and R1–R6. Each milestone closes only after its own dated report and approved source/evidence references.
