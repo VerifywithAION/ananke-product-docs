@@ -10,7 +10,7 @@
 
 *A new approach to AI economics: preserve applicable work, recognize meaningful change, and use fresh machine intelligence when it is actually justified.*
 
-**[Explore Product Atlas](atlas/README.md)** · **[Investor Overview](investors/README.md)** · **[Pitch Deck](investors/pitch-deck.md)** · **[Research Evidence](research/README.md)** · **[Roadmap](ROADMAP.md)** · **[Español](README.es.md)**
+**[Delivery & Scientific Milestones](MILESTONES.md)** · **[Explore Product Atlas](atlas/README.md)** · **[Investor Overview](investors/README.md)** · **[Pitch Deck](investors/pitch-deck.md)** · **[Research Evidence](research/README.md)** · **[Roadmap](ROADMAP.md)** · **[Español](README.es.md)**
 
 **Public documentation · Research and product engineering · Not yet generally available**
 
@@ -69,11 +69,11 @@ Each row has a **different** baseline and experimental scope. A decrease in fron
 
 **Already documented:** controlled model-backed local token/call studies; real bounded specialized-model comparisons; engineering milestones involving governed execution, evidence-backed reusable work, local product/control-plane surfaces and focused policy qualification.
 
-**Not yet established:** current complete native customer acceptance; model-backed Computational Capital and valid reuse through the same accepted customer workflow; actual account-scoped token/ROI dashboards; external private beta or production availability.
+**Accepted in its narrow scope:** a deterministic LAB_ONLY local customer Website/BFF → Cloud/HCR → PostgreSQL receipt and scoped readback path closed/PASS on 20 November. **Not yet established:** a real Supabase authenticated customer acceptance; one coherent necessary-model → independently validated CC → distinct-request reuse/invalidation/recomputation path; actual account-scoped model token/ROI dashboards; external private beta or production availability.
 
 **Priority:** complete the authorized local customer-to-engine evidence path, prove safe Capital/reuse/change behavior with actual provider usage, then test net economics in representative pilot workloads.
 
-[**Read the dated readiness report**](STATUS.md) · [**Read the public roadmap**](ROADMAP.md) · [**Read the built-vs-proven ledger**](atlas/BUILT_AND_PROVEN.md)
+[**Follow the gated milestone ledger**](MILESTONES.md) · [**Read the dated readiness report**](STATUS.md) · [**Read the public roadmap**](ROADMAP.md) · [**Read the built-vs-proven ledger**](atlas/BUILT_AND_PROVEN.md)
 
 ## Where ANANKE is different—and where it overlaps
 
