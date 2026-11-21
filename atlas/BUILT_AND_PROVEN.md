@@ -1,6 +1,10 @@
 # What ANANKE has built and studied
 
-**Evidence cutoff: 20 November 2026.** This is a public-safe summary of documented research and engineering milestones; it is not an independent rerun of private sources or an assertion that the completed commercial system works end to end.
+**Original evidence cutoff: 20 November 2026; 21 November addendum below.** This is a public-safe summary of documented research and engineering milestones; it is not an independent rerun of private sources or an assertion that the completed commercial system works end to end.
+
+## Later accepted customer integration result — 21 November evidence update
+
+A later 20 November run reached **CLOSED/PASS** for the **deterministic LAB_ONLY** local Website/BFF → Cloud/HCR → PostgreSQL receipt persistence/scoped readback and process cleanup. This is a bounded integrated customer-routing milestone, not a real Supabase authenticated customer, model-backed Capital cycle, user ROI or hosted beta. Historical below-day entries should be read with this supersession. See [milestones](../MILESTONES.md).
 
 ## The record, not just the roadmap
 
