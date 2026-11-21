@@ -1,5 +1,7 @@
 # Capability maturity matrix
 
+**21 November 2026 addendum:** The deterministic local customer Website/BFF → Cloud/HCR → PostgreSQL scoped receipt/readback and cleanup path has since reached an accepted **LAB_ONLY** E2E PASS. That narrower achievement does not verify real Supabase login, model-backed Capital, customer economics or hosted beta. See the [milestone ledger](../MILESTONES.md). Earlier November 20 status language below is historical.
+
 Readers should distinguish between **an intended customer-facing capability**, **a bounded result**, and **a qualified integrated commercial product**.
 
 | Product responsibility | Product intent | What is documented today | Current maturity |
