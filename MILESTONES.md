@@ -55,6 +55,15 @@ See [Milestone protocol](milestones/PROTOCOL.md) and [report template](milestone
 
 A gate's status goes from `OPEN` / `BLOCKED` → `QUALIFIED_FOR_EXECUTION` → `EVIDENCE_SUBMITTED` → `ACCEPTED_IN_SCOPE` only when the original frozen predicate, observed run, security negatives, matched baseline, primary receipt/evidence digests and owner review support it. Any broader promotion needs a separate accepted PR/release decision. **Never overwrite a FAIL.** Each sealed result receives its own dated append-only report and a reviewed Git commit or tag; the private evidence packet remains private.
 
+## Live GitHub issue tracking
+
+- [Master delivery epic — E0–E6 / R1–R6](https://github.com/VerifywithAION/ananke-product-docs/issues/5)
+- [First genuine model-backed CC acceptance — E1/E3](https://github.com/VerifywithAION/ananke-product-docs/issues/6)
+- [Customer, Hostinger and domain release — E4/E6](https://github.com/VerifywithAION/ananke-product-docs/issues/7)
+- [Novel non-identical reuse, marginal inference and net compute — R2/R6](https://github.com/VerifywithAION/ananke-product-docs/issues/8)
+
+Issues are high-level public tracking only. Any private implementation issue, SHA mapping, raw receipts or security evidence belongs to an authorized private repo, not this public document set.
+
 ## Navigation and ownership
 
 - [Milestone protocol and update rules](milestones/PROTOCOL.md)
