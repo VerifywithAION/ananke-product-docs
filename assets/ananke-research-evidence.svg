@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="510" viewBox="0 0 1500 510" role="img" aria-labelledby="title desc">
+<title id="title">ANANKE research — bounded model-backed observations</title>
+<desc id="desc">EXP005F local Ollama: 1,000 to 5 actual model calls, 140,060 to 724 measured tokens. EXP025A_R5 local Ollama: 500 to 20 calls, 70,650 to 2,836 measured tokens. ANANKE with JEV A3: 600 of 1,000 specified obligations resolved before JEV. Distinct experiments and baselines, not customer savings. Four-Arm R1 failed its overall preregistered economic acceptance.</desc>
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y2="1"><stop stop-color="#081912"/><stop offset="1" stop-color="#112b20"/></linearGradient>
+<linearGradient id="stripe" x1="0" x2="1"><stop stop-color="#64e6ae"/><stop offset="1" stop-color="#e3c58b"/></linearGradient>
+</defs>
+<rect width="1500" height="510" rx="23" fill="url(#bg)"/>
+<rect x="30" y="30" width="1440" height="450" rx="15" fill="none" stroke="#74a087" stroke-opacity=".17"/>
+<g font-family="Inter,Segoe UI,Arial,sans-serif">
+<text x="65" y="81" fill="#80ebb4" font-size="14" letter-spacing="2.2" font-weight="750">RESEARCH SIGNALS / MEASURED &amp; SCOPED</text>
+<text x="65" y="121" fill="#eff8f1" font-size="30" font-weight="750">Experimental observations. Not production promises.</text>
+<!-- card1 -->
+<rect x="65" y="155" width="421" height="234" rx="14" fill="#173b2b" stroke="#497c5c"/>
+<rect x="65" y="155" width="421" height="5" rx="3" fill="#70e7ab"/>
+<text x="91" y="197" fill="#9cdbb6" font-size="14" font-weight="730" letter-spacing="1.7">EXP005F / LOCAL OLLAMA</text>
+<text x="90" y="266" fill="#f1f8f1" font-size="62" font-weight="770" letter-spacing="-1.9">1,000<tspan fill="#67e5a8"> → </tspan>5</text>
+<text x="92" y="302" fill="#d7ecdc" font-size="16">Actual model calls</text>
+<path d="M90 325 H452" stroke="#6b9a77" stroke-opacity=".3"/>
+<text x="91" y="356" fill="#b4cfbd" font-size="15">140,060 → 724 measured tokens</text>
+<!-- card2 -->
+<rect x="505" y="155" width="421" height="234" rx="14" fill="#173b2b" stroke="#497c5c"/>
+<rect x="505" y="155" width="421" height="5" rx="3" fill="#70e7ab"/>
+<text x="531" y="197" fill="#9cdbb6" font-size="14" font-weight="730" letter-spacing="1.7">EXP025A_R5 / LOCAL OLLAMA</text>
+<text x="530" y="266" fill="#f1f8f1" font-size="62" font-weight="770" letter-spacing="-1.9">500<tspan fill="#67e5a8"> → </tspan>20</text>
+<text x="532" y="302" fill="#d7ecdc" font-size="16">Actual model calls</text>
+<path d="M530 325 H891" stroke="#6b9a77" stroke-opacity=".3"/>
+<text x="531" y="356" fill="#b4cfbd" font-size="15">70,650 → 2,836 measured tokens</text>
+<!-- card3 -->
+<rect x="945" y="155" width="490" height="234" rx="14" fill="#283025" stroke="#9b865b"/>
+<rect x="945" y="155" width="490" height="5" rx="3" fill="#e0c287"/>
+<text x="971" y="197" fill="#e3cc99" font-size="14" font-weight="730" letter-spacing="1.7">ANANKE × JEV / A3</text>
+<text x="970" y="266" fill="#f3f7f0" font-size="62" font-weight="760" letter-spacing="-1.7">600<tspan fill="#e1c489"> / </tspan>1,000</text>
+<text x="972" y="302" fill="#e5e6d7" font-size="16">Obligations resolved before JEV</text>
+<path d="M970 325 H1400" stroke="#aa976d" stroke-opacity=".35"/>
+<text x="971" y="356" fill="#d7cfb2" font-size="15">Bounded external-provider study</text>
+<!-- disclaimer -->
+<circle cx="82" cy="442" r="13" fill="#6d5836" stroke="#d4b87f"/>
+<text x="79" y="447" fill="#f3e6c3" font-size="15" font-weight="800">!</text>
+<text x="107" y="435" fill="#e5dac2" font-size="14" font-weight="760">Four-Arm R1: overall preregistered economic result = FAIL.</text>
+<text x="107" y="455" fill="#aebfae" font-size="13">Different experiments and baselines; these figures are not universal customer, cost or energy savings.</text>
+</g></svg>

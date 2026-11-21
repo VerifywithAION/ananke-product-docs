@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="420" viewBox="0 0 1500 420" role="img" aria-labelledby="title desc">
+<title id="title">ANANKE public milestone roadmap</title>
+<desc id="desc">P0 current: authorized customer integration acceptance, not yet proven. P1 next: real provider backed Computational Capital and net economics. P2 future: developer/design-partner validation. P3 future: enterprise operational qualification. P4 research options: future capabilities. No shipping dates promised.</desc>
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y2="1"><stop stop-color="#081914"/><stop offset="1" stop-color="#112920"/></linearGradient>
+</defs>
+<rect width="1500" height="420" rx="24" fill="url(#bg)"/>
+<rect x="28" y="30" width="1444" height="361" rx="15" fill="none" stroke="#5c9e74" stroke-opacity=".18"/>
+<g font-family="Inter,Segoe UI,Arial,sans-serif">
+<text x="61" y="73" font-size="14" fill="#7be7af" font-weight="750" letter-spacing="2.3">ANANKE / PUBLIC ROADMAP</text>
+<text x="61" y="115" font-size="30" fill="#f2f9f2" font-weight="750">Milestone-driven. Evidence before availability.</text>
+<path d="M100 195 H1395" fill="none" stroke="#6c9078" stroke-opacity=".62" stroke-width="3"/>
+<path d="M100 195 H401" fill="none" stroke="#78e4ae" stroke-width="4"/>
+<g>
+<circle cx="115" cy="195" r="11" fill="#7deab5" stroke="#173d2a" stroke-width="5"/>
+<circle cx="412" cy="195" r="9" fill="#1e402e" stroke="#b6b789" stroke-width="2.5"/>
+<circle cx="711" cy="195" r="9" fill="#1e342b" stroke="#68967b" stroke-width="2.5"/>
+<circle cx="1009" cy="195" r="9" fill="#1e342b" stroke="#68967b" stroke-width="2.5"/>
+<circle cx="1315" cy="195" r="9" fill="#1e342b" stroke="#68967b" stroke-width="2.5"/>
+</g>
+<g font-weight="780" font-size="18">
+<text x="88" y="167" fill="#82efb7">P0</text><text x="385" y="167" fill="#dcc594">P1</text>
+<text x="683" y="167" fill="#a7c4b1">P2</text><text x="981" y="167" fill="#a7c4b1">P3</text><text x="1288" y="167" fill="#a7c4b1">P4</text>
+</g>
+<g font-size="17" font-weight="750">
+<text x="86" y="239" fill="#f0faf1">Customer truth</text>
+<text x="383" y="239" fill="#f0faf1">Value proof</text>
+<text x="682" y="239" fill="#f0faf1">Partner pilots</text>
+<text x="979" y="239" fill="#f0faf1">Enterprise</text>
+<text x="1286" y="239" fill="#f0faf1">Expansion</text>
+</g>
+<g font-size="14" fill="#b5cdbb">
+<text x="86" y="269">Authorized E2E</text><text x="86" y="290">acceptance pending</text>
+<text x="383" y="269">Real Capital, drift</text><text x="383" y="290">and net economics</text>
+<text x="682" y="269">Supported integration,</text><text x="682" y="290">design partners</text>
+<text x="979" y="269">Security, reliability</text><text x="979" y="290">and release gates</text>
+<text x="1286" y="269">Conditional future</text><text x="1286" y="290">research directions</text>
+</g>
+<rect x="81" y="320" width="124" height="27" rx="14" fill="#1a4933" stroke="#3c9566"/>
+<text x="102" y="338" font-size="12" font-weight="760" fill="#8cf0ba" letter-spacing=".7">CURRENT</text>
+<text x="61" y="375" font-size="13" fill="#899f91">Public planning view only · No scheduled launch dates · No beta or general availability implied</text>
+</g></svg>

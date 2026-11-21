@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+<title id="title">ANANKE public repository social preview</title>
+<desc id="desc">Premium emerald green and understated gold branding for ANANKE Inference Necessity Infrastructure. Tagline: Intelligence should be spent only when necessary. Public documentation, private engine.</desc>
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y2="1"><stop stop-color="#071713"/><stop offset=".5" stop-color="#10231c"/><stop offset="1" stop-color="#0b1d16"/></linearGradient>
+<radialGradient id="aura"><stop stop-color="#2ed194" stop-opacity=".24"/><stop offset="1" stop-color="#2ed194" stop-opacity="0"/></radialGradient>
+<linearGradient id="rule" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#74eeb5"/><stop offset="1" stop-color="#e8cb8f"/></linearGradient>
+<pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#81b69a" stroke-opacity=".065"/></pattern>
+</defs>
+<rect width="1280" height="640" rx="16" fill="url(#bg)"/>
+<rect width="1280" height="640" rx="16" fill="url(#grid)"/>
+<circle cx="1006" cy="301" r="370" fill="url(#aura)"/>
+<rect x="38" y="37" width="1204" height="565" rx="13" stroke="#8bc7a2" stroke-opacity=".17" fill="none"/>
+<g font-family="Inter,Segoe UI,Arial,sans-serif">
+<circle cx="97" cy="105" r="6" fill="#7ef2b5"/>
+<text x="118" y="111" fill="#badcca" font-size="17" font-weight="700" letter-spacing="2.5">PRODUCT ATLAS / PUBLIC RESEARCH</text>
+<text x="82" y="301" fill="#f6fbf7" font-size="105" font-weight="780" letter-spacing="8">ANANKE</text>
+<rect x="87" y="323" width="540" height="4" rx="2" fill="url(#rule)"/>
+<text x="86" y="388" fill="#d8efdf" font-size="33" font-weight="630">Intelligence should be spent</text>
+<text x="86" y="432" fill="#8cf1b9" font-size="33" font-weight="630">only when necessary.</text>
+<text x="86" y="520" fill="#e7c98b" font-size="19" font-weight="720" letter-spacing="2.7">INFERENCE NECESSITY INFRASTRUCTURE</text>
+<text x="86" y="557" fill="#99b3a2" font-size="15">Research-backed product vision · Public documentation · Private engine</text>
+</g>
+<g transform="translate(1023 310)">
+<circle r="186" fill="none" stroke="#85e5af" stroke-opacity=".18"/>
+<circle r="144" fill="none" stroke="#b4e5c7" stroke-opacity=".25" stroke-dasharray="4 9"/>
+<circle r="101" fill="none" stroke="#eacb8f" stroke-opacity=".28"/>
+<path d="M-160 -81L-90 -35L0 0L106 -115L171 -22M-124 113L-49 64L0 0L90 153" stroke="#7ce7b3" stroke-opacity=".66" stroke-width="2.3" fill="none"/>
+<g fill="#8bf3ba"><circle cx="-160" cy="-81" r="7"/><circle cx="-90" cy="-35" r="7"/><circle cx="171" cy="-22" r="6"/><circle cx="90" cy="153" r="7"/></g>
+<g fill="#ecd090"><circle cx="106" cy="-115" r="7"/><circle cx="-124" cy="113" r="7"/><circle cx="-49" cy="64" r="6"/></g>
+<circle r="49" fill="#17412d" stroke="#7cf1b3" stroke-width="3"/>
+<path d="M-17 -1L-3 14L23 -18" stroke="#b9f9d4" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</g>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="605" viewBox="0 0 1500 605" role="img" aria-labelledby="title desc">
+<title id="title">The ANANKE necessity decision, conceptual product view</title>
+<desc id="desc">An authorized request is evaluated for necessity and applicability. If a proven result is still valid, eligible work can be reused. If not, fresh inference may be authorized or safely denied. Outcomes are recorded and returned. Source changes prevent stale reuse. This is a conceptual diagram, not a production implementation.</desc>
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y2="1"><stop stop-color="#071712"/><stop offset="1" stop-color="#102b20"/></linearGradient>
+<linearGradient id="emerald" x1="0" x2="1"><stop stop-color="#73eeb3"/><stop offset="1" stop-color="#3ca77e"/></linearGradient>
+<marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0L6 3L0 6" fill="none" stroke="#90dfb5" stroke-width="1.5"/></marker>
+<marker id="goldArrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0L6 3L0 6" fill="none" stroke="#d7bb86" stroke-width="1.5"/></marker>
+</defs>
+<rect width="1500" height="605" rx="24" fill="url(#bg)"/>
+<rect x="32" y="32" width="1436" height="541" rx="18" fill="none" stroke="#80af91" stroke-opacity=".16"/>
+<g font-family="Inter,Segoe UI,Arial,sans-serif">
+<text x="65" y="84" font-size="14" font-weight="700" fill="#75eab0" letter-spacing="2.2">THE PRODUCT LOGIC / PUBLIC CONCEPT</text>
+<text x="65" y="126" font-size="31" font-weight="700" fill="#f2f8f4">Ask before spending intelligence.</text>
+<text x="65" y="155" font-size="16" fill="#9dbea9">Only eligible, currently applicable computation can replace a new model execution.</text>
+<!-- request -->
+<rect x="65" y="229" width="242" height="174" rx="15" fill="#153327" stroke="#4d8165"/>
+<rect x="65" y="229" width="242" height="6" rx="3" fill="#96b2a1"/>
+<text x="86" y="268" font-size="13" fill="#aec6b5" font-weight="750" letter-spacing="2">01 / REQUEST</text>
+<text x="86" y="316" font-size="23" fill="#eaf6ec" font-weight="750">A task arrives</text>
+<text x="86" y="344" font-size="14" fill="#bdd8c7">Identity + scope</text>
+<text x="86" y="368" font-size="14" fill="#bdd8c7">Source + obligations</text>
+<!-- gate -->
+<rect x="365" y="215" width="293" height="201" rx="16" fill="#194935" stroke="#61dba2" stroke-width="1.5"/>
+<rect x="366" y="216" width="291" height="6" rx="3" fill="#6ce3a9"/>
+<text x="389" y="261" font-size="13" fill="#90e9b5" font-weight="750" letter-spacing="2">02 / NECESSITY</text>
+<text x="389" y="306" font-size="22" fill="#f5fff7" font-weight="750">Is fresh inference</text>
+<text x="389" y="337" font-size="22" fill="#f5fff7" font-weight="750">necessary?</text>
+<text x="389" y="370" font-size="13" fill="#bbdfca">Check applicability &amp; authority</text>
+<text x="389" y="391" font-size="13" fill="#bbdfca">before any eligible reuse</text>
+<!-- upper outcome -->
+<rect x="743" y="178" width="320" height="159" rx="15" fill="#15392b" stroke="#74daa1"/>
+<rect x="743" y="178" width="320" height="6" rx="3" fill="#74dba3"/>
+<text x="766" y="215" font-size="13" fill="#8cebbb" font-weight="760" letter-spacing="2">03A / ELIGIBLE RESULT</text>
+<text x="766" y="255" font-size="23" fill="#edf8ef" font-weight="750">Validated reuse</text>
+<text x="766" y="287" font-size="14" fill="#bad3c2">Only if evidence, scope and</text>
+<text x="766" y="311" font-size="14" fill="#bad3c2">current validity are proven</text>
+<!-- lower outcome -->
+<rect x="743" y="357" width="320" height="158" rx="15" fill="#322f23" stroke="#b99d6b"/>
+<rect x="743" y="357" width="320" height="6" rx="3" fill="#d7ba83"/>
+<text x="766" y="395" font-size="13" fill="#e8cb94" font-weight="760" letter-spacing="2">03B / NEW WORK</text>
+<text x="766" y="436" font-size="23" fill="#f6f0df" font-weight="750">Fresh intelligence</text>
+<text x="766" y="465" font-size="14" fill="#d8cfb8">Admit suitable executor</text>
+<text x="766" y="490" font-size="14" fill="#d8cfb8">or safely decline / escalate</text>
+<!-- output -->
+<rect x="1150" y="263" width="285" height="166" rx="15" fill="#17352a" stroke="#5e8970"/>
+<rect x="1150" y="263" width="285" height="6" rx="3" fill="#83ccb0"/>
+<text x="1175" y="305" font-size="13" fill="#a3cdb3" font-weight="760" letter-spacing="2">04 / ACCOUNTABILITY</text>
+<text x="1175" y="350" font-size="22" fill="#f0f8f2" font-weight="750">Return outcome</text>
+<text x="1175" y="376" font-size="14" fill="#b8d3c0">Decision and safe evidence</text>
+<text x="1175" y="400" font-size="14" fill="#b8d3c0">Actual usage vs estimates</text>
+<!-- paths -->
+<path d="M307 315 H352" fill="none" stroke="#90dfb5" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M658 275 H708 V257 H732" fill="none" stroke="#90dfb5" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M658 365 H708 V434 H732" fill="none" stroke="#d7bb86" stroke-width="3" marker-end="url(#goldArrow)"/>
+<path d="M1063 253 H1107 V305 H1139" fill="none" stroke="#90dfb5" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M1063 445 H1107 V382 H1139" fill="none" stroke="#d7bb86" stroke-width="3" marker-end="url(#goldArrow)"/>
+<text x="681" y="244" fill="#88e4af" font-size="12" font-weight="700">VALID</text>
+<text x="684" y="452" fill="#ead097" font-size="12" font-weight="700">NEW</text>
+<!-- applicability footer -->
+<path d="M508 416 V466" fill="none" stroke="#c6ae78" stroke-width="1.5" stroke-dasharray="5 6"/>
+<rect x="352" y="469" width="318" height="48" rx="11" fill="#292b20" stroke="#907f59" stroke-opacity=".7"/>
+<text x="372" y="489" fill="#e3d3a9" font-size="12" font-weight="710">SOURCE CHANGED?</text>
+<text x="372" y="506" fill="#c9c1a9" font-size="11">Invalidate affected prior work</text>
+<text x="65" y="554" fill="#849e8c" font-size="12" letter-spacing=".5">Design intent only. This diagram does not assert that a complete ANANKE customer flow is currently deployed.</text>
+</g>
+</svg>
