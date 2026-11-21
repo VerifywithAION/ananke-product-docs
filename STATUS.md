@@ -1,8 +1,14 @@
 # ANANKE | Product readiness and evidence
 
-**Status date:** 20 November 2026. This document is updated against the latest available owner-supplied project record. It describes public-facing readiness only and does not disclose private implementation or security internals.
+**Status date:** 21 November 2026 (new evidence addendum to the earlier 20 November snapshot). This document is updated against the latest available owner-supplied project record. It describes public-facing readiness only and does not disclose private implementation or security internals.
 
-> **Current verdict: RESEARCH AND PRODUCT ENGINEERING IN PROGRESS. Full customer E2E is NOT PROVEN. External beta and production remain NO-GO.**
+> **Current verdict: LAB_ONLY deterministic local customer integration CLOSED/PASS after the earlier 20 November snapshot. Real Supabase authenticated customer E2E, model-backed Computational Capital and beta/production remain NOT PROVEN / NO-GO.**
+
+## 21 November addendum — later accepted LAB_ONLY customer evidence
+
+A later November 20 internally accepted local run completed Website/BFF → Cloud/HCR → PostgreSQL canonical receipt persistence and authorized scoped readback, plus clean resource lifecycle, **in deterministic LAB_ONLY mode**. Its historical acceptance remains CLOSED/PASS within that scope. It does **not** prove real Supabase login, live provider execution, legitimate model-backed Capital creation/reuse/invalidation or measured customer token savings. The below earlier-day table is preserved as a historical snapshot where its "not yet executed" assessment was made before this later accepted run. Do not use that obsolete assessment to deny the LAB_ONLY PASS.
+
+**Single delivery/claim ledger:** [ANANKE milestones and scientific breakthrough criteria](MILESTONES.md). Public reports summarize private evidence without publishing it.
 
 ## Evidence summary
 
