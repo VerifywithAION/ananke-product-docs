@@ -124,6 +124,8 @@ See [Commercial model](investors/commercial-model.md). The priced scenario there
 
 ## 10. Competition — checked 2026-11-24
 
+**2026-11-24 differentiation hardening:** See the [source-dated Competitive Proof Matrix](investors/competitive-proof-matrix.md), [Public Prior-Art Landscape](research/prior-art-public-landscape.md), and [Venture Readiness Gates](investors/venture-readiness-gates.md). The current claim is a *potential governed necessity and present-applicability product advantage*, **not** legally exclusive novelty or verified economic superiority over configured LiteLLM/Portkey/GPTCache/enterprise baselines. Known task-aware cache patents and systems must be considered before alleging uniqueness.
+
 The table compares **documented live categories or published vendor functionality** to ANANKE's proposed position. It is not a claim that competing products lack all adjacent features.
 
 | Category / example | Publicly documented function (checked 2026-11-24) | Comparison question |
