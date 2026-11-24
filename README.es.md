@@ -25,6 +25,12 @@ En aplicaciones y agentes repetitivos, parte del trabajo anterior podría seguir
 
 **ANANKE** investiga y desarrolla *Inference Necessity Infrastructure*: gobernanza para determinar cuándo está justificado ejecutar inteligencia nueva, cuándo puede reutilizarse trabajo debidamente validado y cómo contabilizar de forma honesta esas decisiones. Denominamos **Computational Capital** al cómputo validado que conserva elegibilidad delimitada para usos posteriores; **no** es una simple caché de respuestas similares.
 
+### Avance de ingeniería · 24 de noviembre de 2026
+
+El candidato dispone de una ruta SQL de solo lectura integrada offline, un checker independiente evaluado en varios conjuntos de datos y componentes de Capital y custodia existentes recuperados para su reutilización. **No están demostrados el ciclo nativo M01–M08, la emisión de Capital elegible, la solicitud real de cliente ni los ahorros netos.** La beta externa sigue **NO-GO**.
+
+[Checkpoint técnico (EN)](docs/integration-checkpoint-2026-11-24.md) · [Estado actual](STATUS.md).
+
 ### Lecturas recomendadas
 
 | **Inversionistas** | **Empresas y producto** | **Ingenieros e investigadores** |

@@ -6,6 +6,14 @@
 
 **24 November update:** the latest internal owner-supplied continuity still does not establish a currently accepted authorized customer-to-governed-engine transaction with model-backed eligible Capital, matching actual usage and scoped receipts/dashboard. Existing laboratory and component successes remain distinct from release acceptance. This update describes a public readiness boundary only; it discloses no private security or implementation details. See the [AI-readable company dossier](company.md) for a single dated investor reference.
 
+## Engineering delta · 24 November 2026
+
+The owner-reported private candidate now has opt-in read-only SQL normalization/validation/routing and a multi-dataset checker. Distinct **offline** suites reported **65/65** regression checks, **11/11** runner/routing checks and **5/5** protected-bootstrap boundary checks. A separate provider-related test suite still had **7 PASS / 10 setup ERROR**; those errors are not passes.
+
+Source, Capital, applicability and custody code was recovered for reuse. The isolated EngineOnly execution path has no direct call to the separate customer-pilot onboarding bootstrap, but **legitimate engine service permissions, product eligibility, current source authorization and provider certification are still outstanding**. There was no successful native A/CONTROL/B/CHANGE/C execution, new eligible Capital or current model-token/cost measurement. **Product and beta verdicts remain NO-GO.**
+
+[Complete dated evidence and remaining gates](docs/integration-checkpoint-2026-11-24.md).
+
 ## Evidence summary
 
 | Workstream | Verified or recorded status | Safe public conclusion |

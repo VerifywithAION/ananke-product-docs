@@ -1,6 +1,6 @@
 # What ANANKE has built and studied
 
-**Evidence cutoff: 20 November 2026.** This is a public-safe summary of documented research and engineering milestones; it is not an independent rerun of private sources or an assertion that the completed commercial system works end to end.
+**Evidence cutoff: 24 November 2026.** This is a public-safe summary of documented research and engineering milestones; it is not an independent rerun of private sources or an assertion that the completed commercial system works end to end.
 
 ## The record, not just the roadmap
 
@@ -40,6 +40,11 @@ The experiments use **different tasks and baselines**. Their reductions cannot b
 | October–November 2026 | Additional canonical Capital/governance tests and M06 local candidate qualification | Component-level and offline validation |
 | 16–19 November 2026 | Native end-to-end acceptance attempts encountered blocking failures | **Current integrated acceptance NOT PROVEN** |
 | 20 November 2026 | Customer identity/mapping and real customer-value validation remain uncompleted | **Beta NO-GO** |
+| 24 November 2026 | Immutable private SQL source qualified; new multi-dataset checker and offline SQL runtime integration reported; existing custody and Capital mechanisms reconciled | **Offline candidate progress only; native Capital and measured savings NOT PROVEN** |
+
+## Additional current engineering evidence
+
+The 24 November candidate reports **65/65 offline regressions**, **11/11 runner/routing** and **5/5 protected-bootstrap boundary** tests in separate scopes. These are not model calls or an accepted unified customer journey. No current live provider-backed Capital, token economics or beta readiness was established. [Evidence details](../docs/integration-checkpoint-2026-11-24.md).
 
 ## What remains specifically unproven
 

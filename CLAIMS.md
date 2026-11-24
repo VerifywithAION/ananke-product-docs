@@ -11,6 +11,10 @@ This document controls how to read public statements in this repository. When a 
 - Four-Arm R1 showed correct outputs and reduced frontier calls, calculated provider cost and median latency on its matched benchmark **while failing the overall preregistered economic acceptance**.
 - M06's local candidate policy passed focused offline regression tests. Unified native M01–M08 product acceptance has **not** passed as of the date of this release.
 
+## 24 November integration claim boundary
+
+The reported **65/65 offline regression**, **11/11 routing** and **5/5 independent SQL multi-dataset checker** results are scoped candidate tests, **not** native model-backed Capital, verified model necessity, current customer economic savings or end-to-end M01–M08 acceptance. Recovered source, security and Capital components remain reusable engineering material, not a live customer deliverable. See the [dated integration checkpoint](docs/integration-checkpoint-2026-11-24.md).
+
 ## Claims we explicitly do not make
 
 - Universal 90%, 99%, 100× or 1,000× savings for arbitrary tasks or customers.

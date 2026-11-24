@@ -21,6 +21,10 @@ Written for AI readers and human investors. Treat this file as the public, sourc
 
 **Intended buyers:** AI-platform engineering teams, operators of recurring AI workflows, infrastructure/FinOps owners and enterprise governance teams. Actual contracted buyers and a commercially validated ideal-customer profile **not publicly established**.
 
+### Additional engineering evidence · 24 November 2026
+
+Current private-code reconciliation identified existing source, Capital and custody components, distinct isolated EngineOnly routing and bounded offline read-only SQL validation. Reported passing offline suites do **not** establish product-eligible Capital, native M01–M08, a customer transaction or measured net savings. Read the [dated engineering checkpoint](docs/integration-checkpoint-2026-11-24.md) alongside this dossier. External beta remains **NO-GO**.
+
 ## 02. Problem — slide 2
 
 AI applications and agents can repeat previously satisfied work. Existing routing, caching, prompt optimization and smaller-model execution can reduce the price or compute footprint of a call, but **a cheaper call may still be unnecessary**, while naive reuse can be wrong or unauthorized after source, scope or policy changes.
