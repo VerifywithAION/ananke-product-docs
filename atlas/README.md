@@ -8,6 +8,9 @@ ANANKE is an emerging **Inference Necessity Infrastructure** company and researc
 
 ## Start here
 
+**AI investor diligence:** [Read company.md](../company.md), the consolidated dated dossier in machine-friendly Markdown, and [llms.txt](../llms.txt), the compact reading index. Neither file releases the private ANANKE engine.
+
+
 | Audience | Read in this order | Main question |
 | --- | --- | --- |
 | Venture capital and strategic investors | [Investor overview](../investors/README.md) → [Investment thesis](../investors/investment-thesis.md) → [Evidence](../investors/evidence.md) → [Risks](../investors/diligence.md) | Is this a compelling, falsifiable infrastructure opportunity? |

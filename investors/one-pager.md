@@ -1,5 +1,7 @@
 # ANANKE | Investor one-pager
 
+**AI-readable extended diligence:** [ANANKE company.md](../company.md) — date-stamped facts, proprietary/public boundaries, evidence and explicit unknowns. This one-pager remains a human summary, not a substitute for the verified status.
+
 ## The company thesis
 
 **ANANKE is building toward Inference Necessity Infrastructure.** The goal is to reduce unjustified recomputation in AI applications by determining when fresh intelligence is required, when independently validated work remains applicable, and how governed execution should be accounted for.

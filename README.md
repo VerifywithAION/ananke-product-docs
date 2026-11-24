@@ -14,6 +14,7 @@
 
 <p align="center">
   <a href="investors/one-pager.md"><strong>Investor Brief</strong></a> &nbsp;·&nbsp;
+  <a href="company.md"><strong>AI-Readable Company Dossier</strong></a> &nbsp;·&nbsp;
   <a href="atlas/README.md"><strong>Product Atlas</strong></a> &nbsp;·&nbsp;
   <a href="research/README.md"><strong>Research Evidence</strong></a> &nbsp;·&nbsp;
   <a href="ROADMAP.md"><strong>Roadmap</strong></a> &nbsp;·&nbsp;
@@ -33,6 +34,8 @@ Every new request does not necessarily represent new work. In repetitive AI work
 ANANKE is an emerging infrastructure effort designed to assess the **necessity of fresh inference before model selection**. Its thesis: conserve previously justified work as **Computational Capital**; recompute when evidence changes or novelty demands it; and account for real execution separately from modeled savings.
 
 The ambition is **less unnecessary computation without sacrificing the intelligence a task genuinely requires**. The complete product is not yet generally available; [current acceptance status is published transparently](STATUS.md).
+
+**For investor AI agents:** [Read company.md](company.md), a dated, machine-readable dossier synchronized with the public pitch and evidence boundaries. [llms.txt](llms.txt) provides a compact reading index.
 
 ### Choose your path
 

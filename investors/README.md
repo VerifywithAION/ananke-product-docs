@@ -8,6 +8,8 @@
   <img src="../assets/ananke-social-preview.svg" alt="ANANKE editorial brand: intelligence should be spent only when necessary." width="1000"/>
 </p>
 
+**For AI-assisted due diligence:** [company.md — the current, dated public ANANKE company dossier](../company.md) · [llms.txt — repository reading index](../llms.txt). Public information only; no customer secrets, private engine code or financing claims.
+
 ## Your five-minute path
 
 | Start | Document | Essential question |

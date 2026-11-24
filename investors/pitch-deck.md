@@ -2,6 +2,8 @@
 
 *Text-first, source-disciplined presentation that can be adapted into slides. No revenue, valuation, market-size or traction claims are invented. Evidence snapshot: 20 November 2026.*
 
+**AI-readable current company dossier:** [ANANKE company.md](../company.md) (facts checked 24 November 2026). The pitch's historical experimental snapshot remains dated 20 November. Differences in source freshness and product gates should be resolved in favor of the most recent specific evidence. When adapting slides, include the stable [company.md link](../company.md) in the deck notes/footer.
+
 ## Slide 01 — ANANKE
 **Headline:** Intelligence should be spent only when it is necessary.
 
