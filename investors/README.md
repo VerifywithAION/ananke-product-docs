@@ -20,6 +20,8 @@
 | **04 · Reality check** | [Current product status](../STATUS.md) | What is built; what still needs acceptance? |
 | **05 · The next gates** | [Roadmap P0–P4](../ROADMAP.md) | What would qualify this for real customer use? |
 
+**Competitive and venture diligence:** [Compare ANANKE with the strongest adjacent products](competitive-proof-matrix.md) · [Examine prior-art limits](../research/prior-art-public-landscape.md) · [See unresolved investor proof gates](venture-readiness-gates.md).
+
 ## Investment narrative, without invented traction
 
 **The pain:** recurring AI workflows may repeat costly analysis of obligations already satisfied. Traditional routing, prompt caching and retrieval help, but reuse cannot be deemed safe on textual similarity alone.

@@ -50,6 +50,10 @@ Potential subscription, governed-operation and enterprise support offerings; no 
 
 If safely validated reuse scales with repeated enterprise work, the economic unit might become **cost per correct new obligation**, rather than cost per raw request. That potential advantage must be earned through real deployments and evidence.
 
+## Competitive proof and prior art
+
+ANANKE's differentiating **question** is how to safely justify full new-inference avoidance against present source, authority and task obligations, not whether simple semantic caches are novel. LiteLLM, Portkey, GPTCache, state-aware workflows and task-level cache patent literature have substantial overlap. **No matched competitor superiority has yet been shown.** [Competitive Proof Matrix](competitive-proof-matrix.md) · [Public prior-art overview](../research/prior-art-public-landscape.md).
+
 ## Diligence
 
 [Full investment thesis](investment-thesis.md) · [Pitch narrative](pitch-deck.md) · [Evidence](evidence.md) · [Competition](competitive-landscape.md) · [Risks](diligence.md) · [Current status](../STATUS.md).

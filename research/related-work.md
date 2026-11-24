@@ -2,6 +2,8 @@
 
 ANANKE belongs to an established ecosystem. Its individual ingredients are not universally new, and no public documentation should claim otherwise.
 
+**Expanded public evidence as of 2026-11-24:** [Prior-art landscape with verified public patents](prior-art-public-landscape.md) and [competitive proof matrix](../investors/competitive-proof-matrix.md). These are high-level, disclosure-limited summaries; private patent claim charts and FTO strategy are excluded.
+
 ## Relevant neighboring approaches
 
 | Area | Typical contribution | ANANKE's research question |

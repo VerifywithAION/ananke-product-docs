@@ -43,6 +43,8 @@ The candidate now includes an opt-in **read-only SQL** workload path, independen
 
 [Read the dated integration checkpoint](docs/integration-checkpoint-2026-11-24.md) · [Current status](STATUS.md).
 
+**Before claiming ANANKE is different or unique:** read the [source-checked competitive proof matrix](investors/competitive-proof-matrix.md) and the [public prior-art landscape](research/prior-art-public-landscape.md). These distinguish our product thesis from existing cache, gateway, workflow and patent literature without exposing the private engine.
+
 ### Choose your path
 
 | **For investors** | **For enterprise & product teams** | **For engineers & researchers** |

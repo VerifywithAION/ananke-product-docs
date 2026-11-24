@@ -18,6 +18,8 @@ Agents and enterprise workflows revisit unchanged or previously completed obliga
 
 **Visual suggestion:** request volume vs genuinely novel work; conceptual, not measured chart.
 
+**Competition context (checked 24 November 2026):** existing gateways already offer semantic caches; task-aware caching and validation have published prior art. See [Competitive Proof Matrix](competitive-proof-matrix.md) and [public prior-art landscape](../research/prior-art-public-landscape.md). Do not convert a proposed distinction into a claim of exclusivity or matched commercial superiority.
+
 ## Slide 03 — The category opportunity
 **Headline:** Necessity governance belongs before inference optimization.
 

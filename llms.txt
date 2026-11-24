@@ -22,6 +22,11 @@
 - [Capability maturity](atlas/CAPABILITY_STATUS.md): component versus complete product qualification.
 - [Public roadmap](ROADMAP.md): conditional P0–P4, no ship dates.
 
+## Competitive proof and patent safety
+- [Competitive Proof Matrix](investors/competitive-proof-matrix.md): checked public vendor functionality, actual overlap, proposed head-to-head methodology, no superior-production claims.
+- [Public Prior-Art Landscape](research/prior-art-public-landscape.md): known patent and prior-tech categories, no private claim maps.
+- [Venture Readiness Gates](investors/venture-readiness-gates.md): product/buyer/economic evidence necessary before claiming an investment-grade moat.
+
 ## Research
 - [Research index](research/README.md): independent study scopes.
 - [Token Reduction Lab](research/token-reduction-lab.md): local model experiments.

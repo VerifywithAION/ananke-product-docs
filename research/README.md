@@ -1,5 +1,7 @@
 # Research and evidence index
 
+**Novelty and competition are separate from laboratory performance.** Read [Public Prior-Art Landscape](prior-art-public-landscape.md) and [Competitive Proof Matrix](../investors/competitive-proof-matrix.md) before describing any feature as exclusive.
+
 ANANKE's evidence program distinguishes **three different kinds of proof**:
 
 1. **Model-backed laboratory execution:** local or external model/provider calls actually occurred and usage was recorded.
