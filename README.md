@@ -37,6 +37,8 @@ The ambition is **less unnecessary computation without sacrificing the intellige
 
 **For investor AI agents:** [Read company.md](company.md), a dated, machine-readable dossier synchronized with the public pitch and evidence boundaries. [llms.txt](llms.txt) provides a compact reading index.
 
+**Before claiming ANANKE is different or unique:** read the [source-checked competitive proof matrix](investors/competitive-proof-matrix.md) and the [public prior-art landscape](research/prior-art-public-landscape.md). These distinguish our product thesis from existing cache, gateway, workflow and patent literature without exposing the private engine.
+
 ### Choose your path
 
 | **For investors** | **For enterprise & product teams** | **For engineers & researchers** |
