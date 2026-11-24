@@ -4,6 +4,11 @@
 
 > ANANKE researches Inference Necessity Infrastructure: whether fresh model intelligence is justified, when validated prior work remains eligible, and how to govern and account for execution. Product acceptance and current customer ROI remain unproven as of the dated sources.
 
+## Current 24 November engineering delta
+
+- [Engineering checkpoint](docs/integration-checkpoint-2026-11-24.md): owner-reported read-only SQL and three-dataset validation progress; preserved Capital/custody components; separately scoped offline checks; native Capital and customer net economics still NOT PROVEN.
+- Never treat 65/65 offline regression, 11/11 routing or 5/5 security boundary tests as a live customer/product PASS.
+
 ## Begin with
 - [Company dossier — AI/human readable](company.md): dated investor narrative, measured research, capability matrix, commercialization unknowns, rights, risk, source links.
 - [Product status](STATUS.md): existing public NO-GO and current product acceptance constraints.

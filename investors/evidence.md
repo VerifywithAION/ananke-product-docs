@@ -1,6 +1,6 @@
 # ANANKE | Public evidence room
 
-**Evidence cut: 20 November 2026.** This summary preserves favorable results, failed acceptance criteria, and open work. Research records originate from dated project research materials; raw private datasets, model traces and engine implementations are not released here.
+**Historical research evidence cut: 20 November 2026; candidate-engineering update: 24 November 2026.** This summary preserves favorable results, failed acceptance criteria, and open work. Research records originate from dated project research materials; raw private datasets, model traces and engine implementations are not released here.
 
 ## Evidence in a single table
 
@@ -14,6 +14,10 @@
 | Four-Arm R1 | Arm D 101 vs direct 240 frontier calls; all arms 240/240 correct in matched task set | Real matched study | **Overall economic preregistration FAIL** |
 | M06 local policy v0.1 | 47/47 focused and affected offline checks | Offline component qualification | Accepted multi-provider engine |
 | Current customer product | No accepted full current model-backed customer loop | **NOT PROVEN** | Paid deployment, validated customer ROI |
+
+## Separate 24 November product-engineering evidence
+
+Owner-reported opt-in read-only SQL validation/routing and a three-dataset independent checker progressed through bounded offline checks. The **65/65 regression**, **11/11 runner/routing** and **5/5 bootstrap-boundary** PASS counts come from distinct test suites. They provide **no current provider usage, newly product-eligible Capital or net economic measurement**. See the [dated checkpoint](../docs/integration-checkpoint-2026-11-24.md).
 
 ## Why the failed economic test matters
 

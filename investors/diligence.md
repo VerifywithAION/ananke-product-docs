@@ -2,6 +2,8 @@
 
 This is a candid diligence guide for technically sophisticated investors, CIOs, CISOs and AI-infrastructure teams.
 
+**24 November 2026:** Existing Capital, source-governance and protected custody modules were reconciled; the isolated SQL candidate passed additional offline checks. Live product-eligible model-backed Capital, authentic customer request and current net savings are still NOT PROVEN. [Current integration checkpoint](../docs/integration-checkpoint-2026-11-24.md).
+
 ## Product and scientific validity
 
 **Is there a product or only a proposal?** There are substantial measured research and scoped engineering milestones, as documented in the [evidence room](evidence.md). The complete current native customer-facing M01–M08 product has **not passed integrated acceptance**, and no general availability is claimed.

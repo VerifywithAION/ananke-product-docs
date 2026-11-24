@@ -16,6 +16,15 @@ Readers should distinguish between **an intended customer-facing capability**, *
 | Public installation/SDK | Provide supported stable integration to external developers | Documentation only | **Not released** |
 | Hosted beta/enterprise SLA | Operate a secure production service | No qualifying external release record | **Not available** |
 
+## Current candidate engineering update · 24 November
+
+- **Read-only SQL:** opt-in normalization, independent multi-dataset checker and runner integrated offline; protected product-level eligibility not yet accepted.
+- **Preserved implementation:** Capital applicability/registry, source governance and custody components recovered; no duplicate full engine or bootstrap required for these existing mechanisms.
+- **Validation scope:** 65/65 offline regressions, 11/11 runner/routing, 5/5 bootstrap boundary tests (separate reported suites), not native product acceptance.
+- **Live acceptance:** actual authorized model-backed Capital, safe reuse/change/recompute, verified provider accounting and current customer path still unproven.
+
+[Detailed 24 November evidence](../docs/integration-checkpoint-2026-11-24.md).
+
 ## Evidence vocabulary
 
 - **MEASURED:** the stated task actually executed with an observed model/provider under recorded conditions.

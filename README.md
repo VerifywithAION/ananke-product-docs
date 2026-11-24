@@ -37,6 +37,12 @@ The ambition is **less unnecessary computation without sacrificing the intellige
 
 **For investor AI agents:** [Read company.md](company.md), a dated, machine-readable dossier synchronized with the public pitch and evidence boundaries. [llms.txt](llms.txt) provides a compact reading index.
 
+### Engineering checkpoint · 24 November 2026
+
+The candidate now includes an opt-in **read-only SQL** workload path, independent multi-dataset checker tests, and expanded offline integration coverage. Existing Capital, source-governance and credential-custody components were recovered for reuse. **No current native M01–M08 acceptance, product-eligible Capital, customer transaction or measured net savings is claimed.** External beta remains **NO-GO**.
+
+[Read the dated integration checkpoint](docs/integration-checkpoint-2026-11-24.md) · [Current status](STATUS.md).
+
 ### Choose your path
 
 | **For investors** | **For enterprise & product teams** | **For engineers & researchers** |

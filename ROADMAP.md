@@ -1,10 +1,14 @@
 # ANANKE | Public product roadmap
 
-**Last reviewed: 20 November 2026.** This roadmap separates completed historical research milestones, the current critical path, conditional commercial delivery and longer-horizon concepts. **No dates, release windows or availability are promised.** A checked item denotes only the stated evidence class—not production certification.
+**Last reviewed: 24 November 2026.** This roadmap separates completed historical research milestones, the current critical path, conditional commercial delivery and longer-horizon concepts. **No dates, release windows or availability are promised.** A checked item denotes only the stated evidence class—not production certification.
 
 ## North-star
 
 **Build infrastructure that determines whether fresh intelligence must be spent, preserves independently valid prior work, escalates genuine novelty, and lets customers verify quality and net economics.**
+
+## 24 November candidate engineering dependency update
+
+The current EngineOnly route has been traced separately from customer-pilot onboarding; existing Capital/custody mechanisms and the new opt-in read-only SQL path can be reused. These are **offline/component** milestones. The next engineering ordering is: legitimate product eligibility and scoped source/provider execution → native engine A/CONTROL/B/CHANGE/C and matched economics → authenticated Website/BFF customer receipts and dashboard readback. These remain dependencies **within P0/P1**, not newly invented launch phases. [Evidence cutoff and gates](docs/integration-checkpoint-2026-11-24.md).
 
 ## P0 — Integrated customer truth (critical path)
 
@@ -18,7 +22,7 @@
 - [ ] Verify cross-project denial, rights isolation, credential revocation, recovery and controlled teardown.
 - [ ] Obtain one current, coherent integrated acceptance record rather than reusing historical local PASS labels.
 
-**As of 20 November:** P0 remains **open**, customer E2E NOT PROVEN; external beta **NO-GO**.
+**As of 24 November:** P0 remains **open**, customer E2E NOT PROVEN; external beta **NO-GO**.
 
 ## P1 — Model-backed Computational Capital and value truth
 
