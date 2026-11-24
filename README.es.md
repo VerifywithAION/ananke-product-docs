@@ -8,6 +8,7 @@
 
 <p align="center">
   <a href="investors/resumen-ejecutivo-es.md"><strong>Resumen para inversionistas</strong></a> &nbsp;·&nbsp;
+  <a href="company.md"><strong>Ficha para agentes de IA (EN)</strong></a> &nbsp;·&nbsp;
   <a href="atlas/README.md"><strong>Atlas del producto</strong></a> &nbsp;·&nbsp;
   <a href="research/README.md"><strong>Investigación</strong></a> &nbsp;·&nbsp;
   <a href="ROADMAP.md"><strong>Roadmap</strong></a> &nbsp;·&nbsp;
