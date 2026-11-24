@@ -2,6 +2,10 @@
 
 This is a candid diligence guide for technically sophisticated investors, CIOs, CISOs and AI-infrastructure teams.
 
+**New source-dated diligence records (24 November 2026):** [Competitor proof matrix](competitive-proof-matrix.md) · [Public prior art](../research/prior-art-public-landscape.md) · [VC de-risking gates](venture-readiness-gates.md).
+
+**Patent and market challenge:** task-aware cache avoidance and answer validation have published antecedents, including the [Cisco PPU US20250292015A1](https://patents.google.com/patent/US20250292015A1/en) family. ANANKE makes no claim of world-first exclusivity, granted ANANKE patents, patent FTO clearance, or superior net economic results against current competitor configurations. Current public integration remains NO-GO.
+
 ## Product and scientific validity
 
 **Is there a product or only a proposal?** There are substantial measured research and scoped engineering milestones, as documented in the [evidence room](evidence.md). The complete current native customer-facing M01–M08 product has **not passed integrated acceptance**, and no general availability is claimed.
