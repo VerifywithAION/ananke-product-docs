@@ -6,6 +6,10 @@
 
 **Build infrastructure that determines whether fresh intelligence must be spent, preserves independently valid prior work, escalates genuine novelty, and lets customers verify quality and net economics.**
 
+## Unified product acceptance doctrine · 25 November 2026
+
+The required final journey is **normal authorized BYOK request → real ANANKE entrypoint → canonical governed runtime → valid deterministic answer / eligible Capital reuse / necessary provider execution → verified response → durable receipt → original customer surface and scoped dashboard**. The native engine test is necessary but **not** a substitute for the customer ingress-to-output test. [Permanent acceptance and anti-drift contract](docs/end-to-end-north-star-and-continuity-contract.md). External beta still **NO-GO**.
+
 ## 24 November candidate engineering dependency update
 
 The current EngineOnly route has been traced separately from customer-pilot onboarding; existing Capital/custody mechanisms and the new opt-in read-only SQL path can be reused. These are **offline/component** milestones. The next engineering ordering is: legitimate product eligibility and scoped source/provider execution → native engine A/CONTROL/B/CHANGE/C and matched economics → authenticated Website/BFF customer receipts and dashboard readback. These remain dependencies **within P0/P1**, not newly invented launch phases. [Evidence cutoff and gates](docs/integration-checkpoint-2026-11-24.md).

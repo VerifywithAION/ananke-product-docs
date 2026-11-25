@@ -41,6 +41,10 @@ The ambition is **less unnecessary computation without sacrificing the intellige
 
 Owner-provided Windows-host evidence records a **real, consented credential rotation (COMMITTED)** while preserving an existing local signing identity and reporting durable authorization/audit readback. Separate earlier evidence includes independent local signature verification and restricted operator authorization/revocation. **Post-rotation owner authentication, SQL product eligibility, model-backed Capital and customer E2E remain unproven; beta NO-GO.** [Read the milestone and its limits](docs/local-trust-owner-rotation-milestone-2026-11-25.md).
 
+### Permanent product north star — complete BYOK request lifecycle
+
+ANANKE's final acceptance must trace a normal customer prompt from the **existing BYOK entrypoint** through the **same** necessity/governance/Capital runtime and back to the user with validated output, durable receipts and real usage evidence. An isolated ANANKE CC or UI pass does not suffice. [Read the E2E and continuity contract](docs/end-to-end-north-star-and-continuity-contract.md).
+
 ### Engineering checkpoint · 24 November 2026
 
 The candidate now includes an opt-in **read-only SQL** workload path, independent multi-dataset checker tests, and expanded offline integration coverage. Existing Capital, source-governance and credential-custody components were recovered for reuse. **No current native M01–M08 acceptance, product-eligible Capital, customer transaction or measured net savings is claimed.** External beta remains **NO-GO**.
