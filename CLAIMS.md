@@ -15,6 +15,10 @@ This document controls how to read public statements in this repository. When a 
 
 The reported **65/65 offline regression**, **11/11 routing** and **5/5 independent SQL multi-dataset checker** results are scoped candidate tests, **not** native model-backed Capital, verified model necessity, current customer economic savings or end-to-end M01–M08 acceptance. Recovered source, security and Capital components remain reusable engineering material, not a live customer deliverable. See the [dated integration checkpoint](docs/integration-checkpoint-2026-11-24.md).
 
+## 25 November 2026 — local trust and rotation claim boundary
+
+Owner-provided Windows-host evidence reports a real, explicitly consented **COMMITTED** local owner-credential rotation with follow-up authorization/audit readback. Separate earlier scoped evidence covers independent real-signature verification, negative key/scope/revocation checks and restricted operator authorization followed by revocation. We can describe **bounded local trust, cryptographic verification and auditable credential continuity**, but not a security certification, a newly authenticated post-rotation owner, a newly issued operator, hardware-backed custody, native Capital acceptance or customer savings. [Details](docs/local-trust-owner-rotation-milestone-2026-11-25.md).
+
 ## Claims we explicitly do not make
 
 - Universal 90%, 99%, 100× or 1,000× savings for arbitrary tasks or customers.

@@ -1,10 +1,16 @@
 # ANANKE | Product readiness and evidence
 
-**Status date:** 24 November 2026. This document retains the 20 November product inventory and adds the latest 24 November owner-reported no-GO check. It describes public-facing readiness only and does not disclose private implementation or security internals.
+**Status date:** 25 November 2026. This document preserves previous inventory and checkpoints and adds the owner-reported local trust and credential-rotation milestone. It describes public-facing readiness only and does not disclose private implementation or security internals.
 
-> **Current verdict (checked 24 November 2026): RESEARCH AND PRODUCT ENGINEERING IN PROGRESS. Full customer E2E is NOT PROVEN. External beta and production remain NO-GO.**
+> **Current verdict (checked 25 November 2026): LOCAL OWNER TRUST AND CREDENTIAL ROTATION DEMONSTRATED IN A CONTAINED CANDIDATE. Full customer E2E is NOT PROVEN; external beta and production remain NO-GO.**
 
 **24 November update:** the latest internal owner-supplied continuity still does not establish a currently accepted authorized customer-to-governed-engine transaction with model-backed eligible Capital, matching actual usage and scoped receipts/dashboard. Existing laboratory and component successes remain distinct from release acceptance. This update describes a public readiness boundary only; it discloses no private security or implementation details. See the [AI-readable company dossier](company.md) for a single dated investor reference.
+
+## 25 November · Local owner-trust milestone
+
+Owner-provided **real Windows-host execution** reported explicitly consented owner-credential rotation (**COMMITTED**) with later authorization/audit readback, preserving the enrolled local domain and commissioned **software-backed, non-exportable signing identity**. Earlier separate evidence demonstrated a real signature with independent verification, bounded wrong-key/scope/revocation denials and a temporary restricted operator permission check followed by revocation. These support **scoped local trust, cryptographic verification, auditable credential rotation and bounded authorization controls** in the engineering candidate.
+
+**Still unproven:** authentication of the newly rotated owner credential, new post-rotation operator, canonical SQL source/product eligibility, model-backed Capital, matched economic savings and customer E2E. External beta and production remain **NO-GO**. [Milestone and evidence boundaries](docs/local-trust-owner-rotation-milestone-2026-11-25.md).
 
 ## Engineering delta · 24 November 2026
 

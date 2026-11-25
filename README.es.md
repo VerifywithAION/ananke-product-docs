@@ -25,6 +25,10 @@ En aplicaciones y agentes repetitivos, parte del trabajo anterior podría seguir
 
 **ANANKE** investiga y desarrolla *Inference Necessity Infrastructure*: gobernanza para determinar cuándo está justificado ejecutar inteligencia nueva, cuándo puede reutilizarse trabajo debidamente validado y cómo contabilizar de forma honesta esas decisiones. Denominamos **Computational Capital** al cómputo validado que conserva elegibilidad delimitada para usos posteriores; **no** es una simple caché de respuestas similares.
 
+### Hito de confianza local · 25 de noviembre de 2026
+
+La evidencia real aportada desde Windows registra una **rotación consentida de credenciales del propietario (COMMITTED)**, conservando su identidad de firma y con lectura posterior de autorización y auditoría. Antes también se verificó una firma real y la autorización/revocación de un operador restringido. **La autenticación posterior a la rotación, la elegibilidad SQL, Computational Capital real y la integración de cliente siguen pendientes. Beta: NO-GO.** [Hito y límites de evidencia (EN)](docs/local-trust-owner-rotation-milestone-2026-11-25.md).
+
 ### Avance de ingeniería · 24 de noviembre de 2026
 
 El candidato dispone de una ruta SQL de solo lectura integrada offline, un checker independiente evaluado en varios conjuntos de datos y componentes de Capital y custodia existentes recuperados para su reutilización. **No están demostrados el ciclo nativo M01–M08, la emisión de Capital elegible, la solicitud real de cliente ni los ahorros netos.** La beta externa sigue **NO-GO**.

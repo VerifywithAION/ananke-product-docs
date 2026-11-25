@@ -16,6 +16,10 @@ Readers should distinguish between **an intended customer-facing capability**, *
 | Public installation/SDK | Provide supported stable integration to external developers | Documentation only | **Not released** |
 | Hosted beta/enterprise SLA | Operate a secure production service | No qualifying external release record | **Not available** |
 
+## Local trust milestone · 25 November
+
+Owner-provided host evidence records **COMMITTED**, consented credential rotation in the existing local candidate, with the same software-backed signing identity and durable audit readback. Separate earlier checks exercised real signing, scope/key/revocation denials and restricted operator authorization/revocation. **New owner authentication, integrated Capital, customer E2E and security certification remain unproven.** [Evidence](../docs/local-trust-owner-rotation-milestone-2026-11-25.md).
+
 ## Current candidate engineering update · 24 November
 
 - **Read-only SQL:** opt-in normalization, independent multi-dataset checker and runner integrated offline; protected product-level eligibility not yet accepted.
